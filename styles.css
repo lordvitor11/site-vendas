@@ -1,0 +1,133 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #333; /* Cor geral do texto */
+    background-color: #f5f5f5; /* Cor de fundo geral */
+}
+
+header {
+    background-color: #ffffff; /* Fundo branco para o cabeçalho */
+    color: #333; /* Texto escuro para contraste */
+    padding: 40px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+header .subtitle {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+#home {
+    background-color: #333; /* Cinza escuro para a navbar */
+    color: white;
+}
+
+.navbar {
+    background-color: #333; /* Cinza escuro para a navbar */
+    padding: 10px 0;
+}
+
+.navbar .container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: #ffffff; /* Texto branco para links da navbar */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar ul li a:hover {
+    text-decoration: underline;
+}
+
+.intro, .services, .why-choose, .contact {
+    background-color: #ffffff; /* Fundo branco para seções */
+    padding: 40px 20px;
+    margin-bottom: 20px;
+    border-radius: 8px; /* Cantos arredondados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.intro p, .services p, .why-choose p, .contact p {
+    color: #666; /* Cinza para o texto dos parágrafos */
+}
+
+h2 {
+    color: #333; /* Preto para títulos principais */
+    margin-bottom: 20px;
+}
+
+.service, .reason {
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #333; /* Preto para subtítulos */
+}
+
+a {
+    color: #007bff; /* Azul para links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    background-color: #007bff; /* Azul para botões */
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3; /* Azul mais escuro para hover */
+}
+
+.contact-info a {
+    color: #007bff; /* Azul para links de contato */
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #f1f1f1; /* Cinza claro para o rodapé */
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer p {
+    color: #666; /* Cinza para o texto do rodapé */
+}
