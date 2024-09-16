@@ -61,7 +61,7 @@ header h1 {
 }
 
 .product-grid .container {
-    width: 80%;
+    width: 50%;
     margin: 0 auto;
 }
 
@@ -73,7 +73,6 @@ header h1 {
 
 .grid-item {
     transition: all 0.3s ease;
-
     background-color: #ffffff;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -132,5 +131,24 @@ footer p {
 @media (max-width: 480px) {
     .grid {
         grid-template-columns: 1fr;
+    }
+}
+
+/* Adicionando uma regra para telas entre 1440px e 1920px de largura */
+@media (min-width: 1440px) and (max-width: 1919px) {
+    .grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+/* Adicionando uma regra para telas de 1920px ou mais de largura */
+@media (min-width: 1920px) {
+    .grid {
+        grid-template-columns: repeat(5, 1fr);
+    }
+
+    .product-grid .container {
+        width: 85%;
+        margin: 0 auto;
     }
 }
